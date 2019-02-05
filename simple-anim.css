@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div{
+	width: 100px;
+	height: 100px;
+	background-color: #0E52C9;
+	
+	/*Animation*/
+	animation-name: moveBox;
+	animation-duration: 3s;
+	}
+	
+	@-webkit-keyframes moveBox{
+		from{ 
+		-webkit-transform: translateX(0px);
+		}
+		to{
+			-webkit-transform: translateX(300px);			
+			}
